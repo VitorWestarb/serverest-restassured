@@ -55,10 +55,6 @@ code .
 mvn test -Dtest=ServerestE2ETest
 ```
 
-4️⃣ Rodar todos os testes  
-```bash
-mvn test
-```
 ---
 
 ▶ Exemplo de Execução
