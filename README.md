@@ -41,7 +41,7 @@ Esse cenário garante que o fluxo essencial esteja funcionando e que o endpoint 
 
 1️⃣ Clonar o repositório  
 ```bash
-git clone https://github.com/seu-usuario/api-serverest-tests.git
+git clone https://github.com/VitorWestarb/serverest-restassured.git
 ```
 
 2️⃣ Acessar o projeto  
