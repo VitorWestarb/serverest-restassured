@@ -37,25 +37,45 @@ Esse cenário garante que o fluxo essencial esteja funcionando e que o endpoint 
 
 ---
 
-🛠️ Como rodar o projeto na sua máquina
-1️⃣ Clonar o repositório
+## 🛠️ Como rodar o projeto na sua máquina
+
+1️⃣ Clonar o repositório  
+```bash
 git clone https://github.com/seu-usuario/api-serverest-tests.git
+```
 
-2️⃣ Acessar o projeto
+2️⃣ Acessar o projeto  
+```bash
 cd api-serverest-tests
+```
 
-3️⃣ Rodar o teste principal
+3️⃣ Rodar o teste principal  
+```bash
 mvn test -Dtest=ServerestE2ETest
+```
 
-4️⃣ Rodar todos os testes
+4️⃣ Rodar todos os testes  
+```bash
 mvn test
+```
+---
 
 ▶ Exemplo de Execução
 
-Ao rodar os testes, você verá algo como:
-
+```
 Usuário admin criado com sucesso
 Login realizado
 Produto criado
 Produto encontrado via GET
 Teste finalizado com sucesso ✔
+```
+---
+
+
+📄 Observações importantes
+
+A API Serverest é pública. Os dados podem ser resetados a qualquer momento.
+
+Para evitar erro de "produto já existente", os nomes, emails e IDs são gerados dinamicamente.
+
+O cenário é totalmente independente e pode ser executado várias vezes sem impacto.
