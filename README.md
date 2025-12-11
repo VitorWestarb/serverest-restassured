@@ -46,7 +46,8 @@ git clone https://github.com/VitorWestarb/serverest-restassured.git
 
 2️⃣ Acessar o projeto  
 ```bash
-cd api-serverest-tests
+cd serverest-restassured
+code .
 ```
 
 3️⃣ Rodar o teste principal  
